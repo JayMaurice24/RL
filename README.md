@@ -2,8 +2,10 @@ FILES:
 
 Scenario1.py
 - Agent collects one package
+
 Scenario2.py
 - Agent collects 3 packages randomly
+
 Scenario3.py
 - Agent collects 3 packages in order
 Requirements.txt
