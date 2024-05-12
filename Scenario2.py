@@ -82,7 +82,6 @@ def main():
                     break
      print("Done")
      # Show Path
-     print(packageOrder[-1])
      fourRoomsObj.showPath(-1)
 
 
