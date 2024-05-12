@@ -1,6 +1,5 @@
 import numpy
 import random
-
 from matplotlib import pyplot, colors
 
 
@@ -29,7 +28,7 @@ class FourRooms:
         else:
             raise Exception('Invalid Scenario. Must be one of the following values: simple, multi or rgb')
 
-        self.stochastic = stochastic
+        self.stochastic = stochastic 
 
         # Create Four Rooms Domain
         self.__environment = numpy.array(
@@ -44,7 +43,7 @@ class FourRooms:
                 [-1, -1,  0, -1, -1, -1, -1,  0,  0,  0,  0,  0, -1],  # 6
                 [-1,  0,  0,  0,  0,  0, -1, -1, -1,  0, -1, -1, -1],  # 7
                 [-1,  0,  0,  0,  0,  0, -1,  0,  0,  0,  0,  0, -1],  # 8
-                [-1,  0,  0,  0,  0,  0, -1,  0,  0,  0,  0,  0, -1],  # 9
+                [-1,  0,  0,  0,  0,  0, -1,  0,  0,  0,  0,  0, -1],  # 9 
                 [-1,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0, -1],  # 10
                 [-1,  0,  0,  0,  0,  0, -1,  0,  0,  0,  0,  0, -1],  # 11
                 [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]   # 12
